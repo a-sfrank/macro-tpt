@@ -63,7 +63,7 @@ Perform the following steps:
 	- select the numbers of clusters, based on crispness value (see Fig 1) (select 2 for bistability, or 3 for tristability cluster)
 	- in the tristable case (Case 5) select the subcase you want to run (choose between subcases 1 and 6)
 
-# Postprocessing of data:
+# Postprocessing of code output (i.e., data):
 - The flux information is used to calculate transition flow probabilities manually.
 - Similarily, the calculated transition probabilities could be used to calculate/approximate the coarse-grained transition matrix Pc (see appendix 
  in [7]); For this article this is NOT DONE, as the PCCA gives out the exact matrix Pc.
