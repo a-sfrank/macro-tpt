@@ -28,15 +28,16 @@ Maintainer:  Anna-Simone Frank and Susanna Röblitz
 |main_pcca_macrophages.m:| 	Main file that loads the stochastic macrophage model, pcca+ and TPT analysis|
 |parameterCase.m:	| 	File contains the different model parameter cases: 1.	**Bistability:** Case 1-4; 2. **Tristability:** Case 5 with subcases 1-6|
 |assemble Q.m:	|		File assembles the stochastic rate matrix from the macrophage polarization model described in Frank et al. (CME generation)|
-|pcca.m:|			 	Main file for the pcca+ analysis. It depends on the following files (compute_subspace.m; coords.m; fillA; index_search.m; main_nlscon.m; nlscon.m; objective.m; orthogon.m; opt_soft.m; problem_pcca-nlscon.m). For details on the pcca+ and the code, see Röblitz et al and Frank et al. (Main PCCA+ analysis file) |
+|pcca.m:|			 	Main file for the pcca+ analysis. It depends on the following files (compute_subspace.m; fillA; index_search.m; main_nlscon.m; nlscon.m; objective.m; orthogon.m; opt_soft.m; problem_pcca-nlscon.m). For details on the pcca+ and the code, see Röblitz et al and Frank et al. (Main PCCA+ analysis file) |
 |pikFullfnc.m:|			Function calculates the density peaks from the clustering result from the PCCA+ analysis.|
 |findSet_2.m:| 			Function based on pikFullfnc.m and is used to define the macrophage phenotypes sets on the state space. These phenotype sets are needed to calculate and perform TPT. They are loaded into the TPT_cases.m file.|
 |committor.m:|			Code implements committor function as described in article by Metzner et al. (Part of TPT analysis)|
 |prob2.m; prob3.m, prob4.m:|   Code implements Transition path theory (TPT): Calculates transition flows between sets and probabilities and	stationary probability of the sets (i.e., phenotypes) for bistability (index 2), for tristability, subcases 1-2	(index 3) and for tristability, subcases 3-6 (index 4) |
 |probBi.m, probTri.m:	|	Calculates additional statistics for the TPT analysis and plots the flow directions over the state space N^2: for bistability (index: Bi);  for tristability (index: Tri)|
 |TPTCases.m:|			File calls for each parameter case the files and codes needed to perform the TPT analysis. (Main TPT analysis file)|
-|plot_Feff_bistability.m| The transition path flow are calculated for the *bistable* cases. One needs to specify which of the bistable cases shall be plotted. |
-|plot_Feff.m| The transition path flow are calculated for the *tristable* cases. One needs to specify the corresponding case (i.e., Case 5), and subcase. |
+|coords.m |                      The function calculated the 2D coordinates  of an index node and is needed to visualize the transition flows.  |
+|plot_Feff_bistability.m| The transition path flow are calculated for the *bistable* cases. One needs to specify which of the bistable cases shall be plotted. This function calls the coords.m function. |
+|plot_Feff.m| The transition path flow are calculated for the *tristable* cases. One needs to specify the corresponding case (i.e., Case 5), and subcase. This function calls the coords.m function. |
         
 # Setting Input parameters:
 |File names:|			Description:|
