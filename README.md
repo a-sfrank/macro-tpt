@@ -1,4 +1,37 @@
+Copyright (c) 2022 Anna-Simone Frank
+with contributions of Marcus Weber and Susanna Röblitz
 
+If you use this code or parts of it, cite the following reference:
+
+Frank, A. S., Larripa, K., Ryu, H. and Röblitz S. (2022) Macrophage phenotype transitions in a stochastic gene-regulatory network model. bioarXiv preprint
+
+Frank, A. S., Sikorski, A., & Röblitz, S. (2022). Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537.
+
+Röblitz, S., & Weber, M. (2013).
+Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179.
+
+GPCCA is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+------------------------------------------------------------------------------------------
+For questions or support contact
+
+Anna-Simone Frank
+asfrank88@gmail.com
+------------------------------------------------------------------------------------------
+
+Download the code at: 
+
+------------------------------------------------------------------------------------------
 # General information:
 The code implements the cPCCA+ method [1, 2] and performs Transition path theory analysis [3--5] 
 on the coarse-grained Markov State Model (MSM) to determine transition statistics, path flows and transition probabilities.
