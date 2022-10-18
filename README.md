@@ -22,7 +22,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 ------------------------------------------------------------------------------------------
 For questions or support contact
 
-Anna-Simone Frank (asfrank88@gmail.com) or Susanna Röblitz (susanna.roblitz@uib.no)
+Anna-Simone Frank (asfrank88@gmail.com; anna-simone.frank@uib.no) or Susanna Röblitz (susanna.roblitz@uib.no)
 
 ------------------------------------------------------------------------------------------
 
