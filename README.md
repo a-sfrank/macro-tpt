@@ -1,11 +1,13 @@
-Copyright (c) 2022 Anna-Simone Frank
-with contributions of Marcus Weber and Susanna Röblitz
+Copyright (c) 2022 Anna-Simone Frank and Susanna Röblitz
+with contributions of Marcus Weber 
 
 If you use this code or parts of it, cite the following reference:
 
-Frank, A. S., Larripa, K., Ryu, H. and Röblitz S. (2022) Macrophage phenotype transitions in a stochastic gene-regulatory network model. bioarXiv preprint
+Frank, A. S., Larripa, K., Ryu, H. and Röblitz S. (2022).
+Macrophage phenotype transitions in a stochastic gene-regulatory network model. bioarXiv preprint
 
-Frank, A. S., Sikorski, A., & Röblitz, S. (2022). Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537.
+Frank, A. S., Sikorski, A., & Röblitz, S. (2022). 
+Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537.
 
 Röblitz, S., & Weber, M. (2013).
 Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179.
@@ -25,11 +27,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ------------------------------------------------------------------------------------------
 For questions or support contact
 
-Anna-Simone Frank
-asfrank88@gmail.com
+Anna-Simone Frank (asfrank88@gmail.com) or Susanna Röblitz (susanna.roblitz@uib.no)
+
 ------------------------------------------------------------------------------------------
 
-Download the code at: 
+Download the code at: https://github.com/a-sfrank/macro-tpt.git
 
 ------------------------------------------------------------------------------------------
 # General information:
@@ -48,11 +50,6 @@ The code implementation is based on the following articles:
 5. Noé, F., Schütte, C., Vanden-Eijnden, E., Reich, L., & Weikl, T. R. (2009). Constructing the equilibrium ensemble of folding pathways from short off-equilibrium simulations. Proceedings of the National Academy of Sciences, 106(45), 19011-19016.
 6. Frank, A. S., Larripa, K., Ryu, H., Snodgrass, R. G., & Röblitz, S. (2021). Bifurcation and sensitivity analysis reveal key drivers of multistability in a model of macrophage polarization. Journal of Theoretical Biology, 509, 110511.
 7. Chu, B. K., Tse, M. J., Sato, R. R., & Read, E. L. (2017). Markov State Models of gene regulatory networks. BMC systems biology, 11(1), 1-17.
-
-Contributers: Anna-Simone Frank (anna-simone.frank@uib.no), Susanna Röblitz (susanna.roblitz@uib.no)
-
-Maintainer:  Anna-Simone Frank and Susanna Röblitz
-
 
 # Included code files and their description:
 |File names:		|	Description:
