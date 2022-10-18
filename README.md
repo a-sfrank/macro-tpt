@@ -3,13 +3,13 @@ with contributions of Marcus Weber
 
 If you use this code or parts of it, cite the following reference:
 
-Frank, A. S., Larripa, K., Ryu, H. and Röblitz S. (2022).
+* Frank, A. S., Larripa, K., Ryu, H. and Röblitz S. (2022).
 Macrophage phenotype transitions in a stochastic gene-regulatory network model. bioarXiv preprint
 
-Frank, A. S., Sikorski, A., & Röblitz, S. (2022). 
+* Frank, A. S., Sikorski, A., & Röblitz, S. (2022). 
 Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537.
 
-Röblitz, S., & Weber, M. (2013).
+* Röblitz, S., & Weber, M. (2013).
 Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179.
 
 GPCCA is free software: you can redistribute it and/or modify
@@ -36,7 +36,7 @@ Download the code at: https://github.com/a-sfrank/macro-tpt.git
 
 ------------------------------------------------------------------------------------------
 # General information:
-The code implements the cPCCA+ method [1, 2] and performs Transition path theory analysis [3--5] 
+The code implements the PCCA+ method [1, 2] and performs Transition path theory analysis [3--5] 
 on the coarse-grained Markov State Model (MSM) to determine transition statistics, path flows and transition probabilities.
 The code is applied to a stochastic model representation (Chemical Master Equation) of a macrophage polarization model in [6] with the aim to identify multi-stable macropahge phenotypes and the transitions between them.
 
