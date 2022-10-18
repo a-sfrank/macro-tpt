@@ -7,23 +7,17 @@ If you use this code or parts of it, cite the following reference:
 Macrophage phenotype transitions in a stochastic gene-regulatory network model. bioarXiv preprint
 
 * Frank, A. S., Sikorski, A., & Röblitz, S. (2022). 
-Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537.
+Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537. https://doi.org/10.48550/arXiv.2206.14537
 
 * Röblitz, S., & Weber, M. (2013).
-Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179.
+Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179.https://doi.org/10.1007/s11634-013-0134-6
 
-GPCCA is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published
-by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+GPCCA is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-You should have received a copy of the GNU Lesser General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ------------------------------------------------------------------------------------------
 For questions or support contact
@@ -44,13 +38,14 @@ Code replicates the results presented in article:
 "*Macrophage phenotype transitions in a stochastic gene-regulatory network model*" by Frank Anna-Simone, Kamila Larripa, Hwayeon Ryu and Susanna Röblitz
 
 The code implementation is based on the following articles: 
-1. Frank, A. S., Sikorski, A., & Röblitz, S. (2022). Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537.
-2. Röblitz, S., & Weber, M. (2013). Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179.
-3. Metzner, P., Schütte, C., & Vanden-Eijnden, E. (2009). Transition path theory for Markov jump processes. Multiscale Modeling & Simulation, 7(3), 1192-1219.
-4. Helfmann, L., Ribera Borrell, E., Schütte, C., & Koltai, P. (2020). Extending transition path theory: Periodically driven and finite-time dynamics. Journal of nonlinear science, 30(6), 3321-3366.
-5. Noé, F., Schütte, C., Vanden-Eijnden, E., Reich, L., & Weikl, T. R. (2009). Constructing the equilibrium ensemble of folding pathways from short off-equilibrium simulations. Proceedings of the National Academy of Sciences, 106(45), 19011-19016.
-6. Frank, A. S., Larripa, K., Ryu, H., Snodgrass, R. G., & Röblitz, S. (2021). Bifurcation and sensitivity analysis reveal key drivers of multistability in a model of macrophage polarization. Journal of Theoretical Biology, 509, 110511.
-7. Chu, B. K., Tse, M. J., Sato, R. R., & Read, E. L. (2017). Markov State Models of gene regulatory networks. BMC systems biology, 11(1), 1-17.
+1. Frank, A. S., Sikorski, A., & Röblitz, S. (2022). Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537. 
+https://doi.org/10.48550/arXiv.2206.14537
+2. Röblitz, S., & Weber, M. (2013). Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179. https://doi.org/10.1007/s11634-013-0134-6
+3. Metzner, P., Schütte, C., & Vanden-Eijnden, E. (2009). Transition path theory for Markov jump processes. Multiscale Modeling & Simulation, 7(3), 1192-1219. https://doi.org/10.1137/070699500
+4. Helfmann, L., Ribera Borrell, E., Schütte, C., & Koltai, P. (2020). Extending transition path theory: Periodically driven and finite-time dynamics. Journal of nonlinear science, 30(6), 3321-3366.https://doi.org/10.1007/s00332-020-09652-7
+5. Noé, F., Schütte, C., Vanden-Eijnden, E., Reich, L., & Weikl, T. R. (2009). Constructing the equilibrium ensemble of folding pathways from short off-equilibrium simulations. Proceedings of the National Academy of Sciences, 106(45), 19011-19016. https://doi.org/10.1073/pnas.0905466106
+6. Frank, A. S., Larripa, K., Ryu, H., Snodgrass, R. G., & Röblitz, S. (2021). Bifurcation and sensitivity analysis reveal key drivers of multistability in a model of macrophage polarization. Journal of Theoretical Biology, 509, 110511. https://doi.org/10.1016/j.jtbi.2020.110511
+7. Chu, B. K., Tse, M. J., Sato, R. R., & Read, E. L. (2017). Markov State Models of gene regulatory networks. BMC systems biology, 11(14), 1-17. https://doi.org/10.1186/s12918-017-0394-4
 
 # Included code files and their description:
 |File names:		|	Description:
