@@ -74,7 +74,7 @@ The code implementation is based on the following articles:
 |Output type:	|		Description:|
 |---|---|
 |Figures|				Fig 1: Cluster vs Crispness plot;	Fig 2-3(4): Chi Membership functions for bi-(tri-)stability; Fig 11-12(13): Partial stationary densities of cluster sets (i.e.,macrophage phenotype sets)|
-|Data |				Eigenvalues, Crispness of cluster; statistical weigthes of the cluster and coarse-grained transition matrix Pc|
+|Data |				Eigenvalues, Crispness of cluster; statistical weights of the cluster, transition rate matrix Qc and coarse-grained transition matrix Pc|
 
 #### 2. From TPT analysis
 |Output type:|			Description:|
@@ -93,4 +93,4 @@ Perform the following steps:
 # Postprocessing of code output (i.e., data):
 - The flux information is used to calculate transition flow probabilities manually.
 - Similarily, the calculated transition probabilities could be used to calculate/approximate the coarse-grained transition matrix Pc (see appendix 
- in [7]); For this article this is NOT DONE, as the PCCA gives out the exact matrix Pc.
+ in [7]); For this article this is NOT DONE, as the PCCA+ method gives out the exact matrix Pc.
