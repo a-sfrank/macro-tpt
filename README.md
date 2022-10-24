@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/542497606.svg)](https://zenodo.org/badge/latestdoi/542497606)
+
 Copyright (c) 2022 Anna-Simone Frank and Susanna Röblitz with contributions from Markus Weber (in PCCA+)
 
 If you use this code or parts of it, cite the following reference:
