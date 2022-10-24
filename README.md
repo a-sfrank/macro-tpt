@@ -52,7 +52,7 @@ The code implementation is based on the following articles:
 |main_pcca_macrophages.m:| 	Main file that loads the stochastic macrophage model, pcca+ and TPT analysis|
 |parameterCase.m:	| 	File contains the different model parameter cases: 1.	**Bistability:** Case 1-4; 2. **Tristability:** Case 5 with subcases 1-6|
 |assemble Q.m:	|		File assembles the stochastic rate matrix from the macrophage polarization model described in Frank et al. (CME generation)|
-|pcca.m:|			 	Main file for the pcca+ analysis. It depends on the following files (compute_subspace.m; fillA; index_search.m; main_nlscon.m; nlscon.m; objective.m; orthogon.m; opt_soft.m; problem_pcca-nlscon.m). For details on the pcca+ and the code, see Röblitz et al and Frank et al. and https://github.com/sroeblitz/cPCCA.git  (Main PCCA+ analysis file) |
+|pcca.m:|			 	Main file for the pcca+ analysis. It depends on the following files (compute_subspace.m; fillA; index_search.m; main_nlscon.m; nlscon.m; objective.m; orthogon.m; opt_soft.m; problem_pcca-nlscon.m). For details on the pcca+ method and the code, see Röblitz et al and Frank et al. as well as https://github.com/sroeblitz/cPCCA.git  (Main PCCA+ analysis file) |
 |pikFullfnc.m:|			Function calculates the density peaks from the clustering result from the PCCA+ analysis.|
 |findSet_2.m:| 			Function based on pikFullfnc.m and is used to define the macrophage phenotypes sets on the state space. These phenotype sets are needed to calculate and perform TPT. They are loaded into the TPT_cases.m file.|
 |committor.m:|			Code implements committor function as described in article by Metzner et al. (Part of TPT analysis)|
