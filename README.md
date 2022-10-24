@@ -1,19 +1,17 @@
 Copyright (c) 2022 Anna-Simone Frank and Susanna Röblitz
-with contributions of Marcus Weber 
 
 If you use this code or parts of it, cite the following reference:
 
 * Frank, A. S., Larripa, K., Ryu, H. and Röblitz S. (2022).
-Macrophage phenotype transitions in a stochastic gene-regulatory network model. bioarXiv preprint
+Macrophage phenotype transitions in a stochastic gene-regulatory network model. bioRxiv preprint:10.1101/2022.10.21.513139. Preprint available at https://biorxiv.org/cgi/content/short/2022.10.21.513139v1
 
 * Frank, A. S., Sikorski, A., & Röblitz, S. (2022). 
-Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537. https://doi.org/10.48550/arXiv.2206.14537
+Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537. Preprint available at https://doi.org/10.48550/arXiv.2206.14537.
 
 * Röblitz, S., & Weber, M. (2013).
 Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179.https://doi.org/10.1007/s11634-013-0134-6
 
-
-GPCCA is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+MACRO-TPT is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
@@ -34,12 +32,12 @@ The code implements the PCCA+ method [1, 2] and performs Transition path theory 
 on the coarse-grained Markov State Model (MSM) to determine transition statistics, path flows and transition probabilities.
 The code is applied to a stochastic model representation (Chemical Master Equation) of a macrophage polarization model in [6] with the aim to identify multi-stable macropahge phenotypes and the transitions between them.
 
-Code replicates the results presented in article:
-"*Macrophage phenotype transitions in a stochastic gene-regulatory network model*" by Frank Anna-Simone, Kamila Larripa, Hwayeon Ryu and Susanna Röblitz
+Code generates the results presented in article:
+Frank, A. S., Larripa, K., Ryu, H. and Röblitz S. (2022).
+*Macrophage phenotype transitions in a stochastic gene-regulatory network model*. bioRxiv preprint:10.1101/2022.10.21.513139. Preprint available at https://biorxiv.org/cgi/content/short/2022.10.21.513139v1
 
 The code implementation is based on the following articles: 
-1. Frank, A. S., Sikorski, A., & Röblitz, S. (2022). Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537. 
-https://doi.org/10.48550/arXiv.2206.14537
+1. Frank, A. S., Sikorski, A., & Röblitz, S. (2022). Spectral clustering of Markov chain transition matrices with complex eigenvalues. arXiv preprint arXiv:2206.14537. Preprint available at https://doi.org/10.48550/arXiv.2206.14537
 2. Röblitz, S., & Weber, M. (2013). Fuzzy spectral clustering by PCCA+: application to Markov state models and data classification. Advances in Data Analysis and Classification, 7(2), 147-179. https://doi.org/10.1007/s11634-013-0134-6
 3. Metzner, P., Schütte, C., & Vanden-Eijnden, E. (2009). Transition path theory for Markov jump processes. Multiscale Modeling & Simulation, 7(3), 1192-1219. https://doi.org/10.1137/070699500
 4. Helfmann, L., Ribera Borrell, E., Schütte, C., & Koltai, P. (2020). Extending transition path theory: Periodically driven and finite-time dynamics. Journal of nonlinear science, 30(6), 3321-3366.https://doi.org/10.1007/s00332-020-09652-7
