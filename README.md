@@ -1,4 +1,4 @@
-Copyright (c) 2022 Anna-Simone Frank and Susanna Röblitz
+Copyright (c) 2022 Anna-Simone Frank and Susanna Röblitz with contributions from Markus Weber (in PCCA+)
 
 If you use this code or parts of it, cite the following reference:
 
@@ -57,17 +57,17 @@ The code implementation is based on the following articles:
 |findSet_2.m:| 			Function based on pikFullfnc.m and is used to define the macrophage phenotypes sets on the state space. These phenotype sets are needed to calculate and perform TPT. They are loaded into the TPT_cases.m file.|
 |committor.m:|			Code implements committor function as described in article by Metzner et al. (Part of TPT analysis)|
 |prob2.m; prob3.m, prob4.m:|   Code implements Transition path theory (TPT): Calculates transition flows between sets and probabilities and	stationary probability of the sets (i.e., phenotypes) for bistability (index 2), for tristability, subcases 1-2	(index 3) and for tristability, subcases 3-6 (index 4) |
-|probBi.m, probTri.m:	|	Calculates additional statistics for the TPT analysis and plots the flow directions over the state space N^2: for bistability (index: Bi);  for tristability (index: Tri)|
+|probBi.m, probTri.m:	|	Calculates additional statistics for the TPT analysis: for bistability (index: Bi);  for tristability (index: Tri)|
 |TPTCases.m:|			File calls for each parameter case the files and codes needed to perform the TPT analysis. (Main TPT analysis file)|
 |coords.m |                      The function calculated the 2D coordinates  of an index node and is needed to visualize the transition flows.  |
-|plot_Feff_bistability.m| The transition path flow are calculated for the *bistable* cases. One needs to specify which of the bistable cases shall be plotted. This function calls the coords.m function. |
-|plot_Feff.m| The transition path flow are calculated for the *tristable* cases. One needs to specify the corresponding case (i.e., Case 5), and subcase. This function calls the coords.m function. |
+|plot_Feff_bistability.m| Function plots the flow directions over the state space N^2 for the *bistable* cases. One needs to specify which of the bistable cases shall be plotted. This function calls the coords.m function. |
+|plot_Feff.m| Function plots the flow directions over the state space N^2 for the *tristable* cases. One needs to specify the corresponding case (i.e., Case 5), and subcase. This function calls the coords.m function. |
         
 # Setting Input parameters:
 |File names:|			Description:|
 |---|---|
 |Input.m:| 			Change and adapt input parameters for pcca+ and TPT analsyis in Input.m file; Define the filepath to folder where the results of analysis shall be saved.	|
-|TPTCases.m:| 	**For Bistability:** To vary flow/transition direction vary start and end set in the file. For Case 1 (lines 37/38), for case 2 (lines  72/73), for case 3 (lines 109/110), for case 4 (lines 146/147). *Note:* Start set is A; End set is B; C is everything that is the complement of the sets A and B to the rest of the state space. Dependend on the flow direction set A or B are macrophage phenotypes (LL, LH, HL or HH). **For Tristability:** NO ADAPTIONS NEEDED. The variation in flow directions is accounted for in the various subcases.|
+|TPTCases.m:| 	**For Bistability:** To vary flow/transition direction adapt start and end set in the file. For Case 1 (lines 37/38), for case 2 (lines  72/73), for case 3 (lines 109/110), for case 4 (lines 146/147). *Note:* Start set is A; End set is B; C is everything that is the complement of the sets A and B to the rest of the state space. Dependend on the flow direction set A or B are macrophage phenotypes (LL, LH, HL or HH). **For Tristability:** NO ADAPTIONS NEEDED. The variation in flow directions is accounted for in the various subcases.|
 
 # Code outputs:
 #### 1. From PCCA+ analysis
