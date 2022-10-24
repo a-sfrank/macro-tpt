@@ -93,4 +93,4 @@ Perform the following steps:
 # Postprocessing of code output (i.e., data):
 - The flux information is used to calculate transition flow probabilities manually.
 - Similarily, the calculated transition probabilities could be used to calculate/approximate the coarse-grained transition matrix Pc (see appendix 
- in [7]); For this article this is NOT DONE, as the PCCA+ method gives out the exact matrix Pc.
+ in [7]); This is NOT NECESSARY for replicating the results, as the PCCA+ method gives out the exact matrix Pc.
