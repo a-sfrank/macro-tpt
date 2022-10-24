@@ -67,7 +67,7 @@ The code implementation is based on the following articles:
 |File names:|			Description:|
 |---|---|
 |Input.m:| 			Change and adapt input parameters for pcca+ and TPT analsyis in Input.m file; Define the filepath to folder where the results of analysis shall be saved.	|
-|TPTCases.m:| 	**For Bistability:** To vary flow/transition direction adapt start and end set in the file. For Case 1 (lines 37/38), for case 2 (lines  72/73), for case 3 (lines 109/110), for case 4 (lines 146/147). *Note:* Start set is A; End set is B; C is everything that is the complement of the sets A and B to the rest of the state space. Dependend on the flow direction set A or B are macrophage phenotypes (LL, LH, HL or HH). **For Tristability:** NO ADAPTIONS NEEDED. The variation in flow directions is accounted for in the various subcases.|
+|TPTCases.m:| 	**For Bistability:** To vary flow/transition direction adapt start and end set in the file. For Case 1 (lines 37/38), for case 2 (lines  72/73), for case 3 (lines 109/110), for case 4 (lines 146/147). *Note:* Start set is A; End set is B; Set C is the complement to the sets A and B in the state space. Set A or B represent one of the four macrophage phenotypes (LL, LH, HL or HH). **For Tristability:** NO ADAPTATIONS NEEDED. The variation in flow directions is accounted for in the various subcases.|
 
 # Code outputs:
 #### 1. From PCCA+ analysis
